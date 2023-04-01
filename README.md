@@ -1,4 +1,4 @@
-# app_idea_Notifier
+# App_Idea_Notifier
 
 A new Flutter project featuring basic app structure.
 
