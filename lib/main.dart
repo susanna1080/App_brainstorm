@@ -7,15 +7,22 @@ void main() {
       home: Scaffold(
         backgroundColor: Colors.black,
         appBar: AppBar(
-            title: Text(
-              'basic app idea',
+            centerTitle: true,
+            title: const Text(
+              'Basic app idea',
               style: TextStyle(color: Colors.white),
             ),
             backgroundColor: Colors.black),
-        body: Center(
-          child: Image(
-            image: AssetImage('images/Go (2).png'),
-          ),
+        body: Column(
+          children: <Widget>[
+            Text(
+              'An App that reminds the people I love how amazin they are, when life doesnt. A personalized and general Notifier App. Good vibes only.',
+              style: TextStyle(color: Colors.white),
+            ),
+            Image(
+              image: AssetImage('images/Go (2).png'),
+            ),
+          ],
         ),
       ),
     ),
